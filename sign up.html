@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Sign Up</title>
+  <link rel="stylesheet" href="sign up.css" />
+</head>
+<body>
+  <section class="form-container">
+    <h1>Sign Up</h1>
+    <form>
+      <label>First Name</label>
+      <input type="text" required />
+
+      <label>Last Name</label>
+      <input type="text" required />
+
+      <label>Email</label>
+      <input type="email" required />
+
+      <label>Password</label>
+      <input type="password" required />
+
+      <label>Gender</label>
+      <div class="radio-group">
+        <label><input type="radio" name="gender" value="male" /> Male</label>
+        <label><input type="radio" name="gender" value="female" /> Female</label>
+      </div>
+
+      <label>City</label>
+      <select>
+        <option>Choose City</option>
+        <option>Delhi</option>
+        <option>Mumbai</option>
+        <option>Bangalore</option>
+      </select>
+
+      <button type="submit">Register</button>
+    </form>
+  </section>
+</body>
+</html>
